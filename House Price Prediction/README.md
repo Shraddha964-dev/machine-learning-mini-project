@@ -63,11 +63,11 @@ Target variable:
 from sklearn.datasets import load_boston
 ```
 
-3. DataFrame Creation
+### **3. DataFrame Creation**
 
 Converted dataset into a pandas DataFrame and added price as the target column.
 
-4. Data Analysis
+### **4. Data Analysis**
 
 head(), shape(), describe()
 
@@ -77,17 +77,17 @@ correlation matrix
 
 distribution plots
 
-5. Train-Test Split
+### **5. Train-Test Split**
 
 from sklearn.model_selection import train_test_split
 
-6. Model Training
+### **6. Model Training**
 
 Linear Regression
 
 XGBoost Regressor
 
-7. Evaluation
+### **7. Evaluation**
 
 Metrics used:
 
@@ -99,11 +99,11 @@ RMSE
 
 R² Score
 
-8. Prediction
+### **8. Prediction**
 
 Predicting house price from user input feature values.
 
-📦 Installation
+## 📦 Installation
 
 pip install -r requirements.txt
 
@@ -112,7 +112,7 @@ Run the notebook:
 
 jupyter notebook
 
-🧠 Requirements
+## 🧠 Requirements
 numpy
 pandas
 scikit-learn
@@ -120,15 +120,15 @@ matplotlib
 seaborn
 xgboost
 
-📊 Results
+## 📊 Results
 
 The XGBoost model performed better than Linear Regression based on MAE, RMSE, and R² score.
 
-🤝 Contributing
+## 🤝 Contributing
 
 Feel free to fork the repo and submit pull requests.
 
-📄 License
+## 📄 License
 
 This project is open-source and free to use.
 
