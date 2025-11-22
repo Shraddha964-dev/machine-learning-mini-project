@@ -61,6 +61,7 @@ Target variable:
 ### **2. Loading Dataset**
 ```python
 from sklearn.datasets import load_boston
+```
 
 3. DataFrame Creation
 
